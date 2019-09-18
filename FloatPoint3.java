@@ -3,6 +3,7 @@ public class FloatPoint3 extends FloatPoint2 {
 	Double z;
 	
 	public FloatPoint3() {
+		//remember to look into using superclass constructor
 		super(10, 11);
 		z = 0.0;
 	}
